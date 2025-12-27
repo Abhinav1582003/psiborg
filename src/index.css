@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Minimal app styles */
+html, body, #root {
+  height: 100%;
+}
+body {
+  @apply bg-gray-50 text-gray-900 antialiased; 
+}
+
+.container {
+  max-width: 1200px;
+}
+
+.spinner {
+  border: 4px solid rgba(0,0,0,0.05);
+  border-left-color: rgba(0,0,0,0.6);
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin { to { transform: rotate(360deg); } }
