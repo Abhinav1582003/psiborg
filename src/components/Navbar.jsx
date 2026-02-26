@@ -10,7 +10,7 @@ export const Navbar = () => {
         <nav className="bg-white shadow">
             <div className="container mx-auto px-4 py-3 flex items-center justify-between">
                 <div className="flex items-center gap-3">
-                    <img src={logo} height={75} width={75} alt="logo" />
+                    {/* <img src={logo} height={75} width={75} alt="logo" /> */}
                     <div className="text-xl font-semibold">Product Store</div>
                 </div>
                 <div>
