@@ -60,9 +60,10 @@ export default function ProductDetail() {
             </div>
           </div>
           <div className="flex gap-2">
-            <button className="bg-blue-600 text-white px-4 py-2 rounded" onClick={() => setEditing(true)}>Edit</button>
-            <button className="border px-4 py-2 rounded text-red-600" onClick={() => setConfirmOpen(true)}>Delete</button>
+            {/* <button className="bg-blue-600 text-white px-4 py-2 rounded" onClick={() => setEditing(true)}>Edit</button> */}
+            {/* <button className="border px-4 py-2 rounded text-red-600" onClick={() => setConfirmOpen(true)}>Delete</button> */}
             <button className="px-4 py-2 rounded" onClick={() => navigate(-1)}>Back</button>
+            <button className="bg-blue-600 text-white px-4 py-2 rounded" onClick={() => window.alert("Bhai paisa dedo portfolio ka")}>Order Now</button>
           </div>
         </>
       ) : (
